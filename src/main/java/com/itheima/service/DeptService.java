@@ -13,4 +13,16 @@ public interface DeptService {
      * @return
      */
     List<Dept> list();
+
+    /*
+     *删除部门
+     *@param id
+     */
+    void delete(Integer id);
+
+    /*
+     *添加部门
+     *@param dept
+     */
+    void add(Dept dept);
 }
